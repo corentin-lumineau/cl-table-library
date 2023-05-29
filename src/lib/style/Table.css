@@ -1,0 +1,78 @@
+.main-container-table {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 75%;
+}
+
+.container-table {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow: auto;
+}
+
+.header-table {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.column:hover {
+    cursor: pointer;
+}
+
+.row-element {
+    width: 10%;
+    color: black;
+    font-size: 12px;
+}
+
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar-container input {
+    width: 50%;
+}
+
+.displaying-options {
+    display: flex;
+    gap: 10px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.item:hover {
+    cursor: pointer;
+}
+
+.arrow-up {
+    width: 10px;
+    transform: rotate(180deg);
+}
+
+.arrow-down {
+    width: 10px;
+}
